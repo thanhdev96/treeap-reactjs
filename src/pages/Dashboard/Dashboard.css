@@ -1,0 +1,20 @@
+  .container-dashboard{
+    margin-top: 170px;
+  }
+
+  .dashboard-option {
+    margin-top: 5px;
+    margin-left: 10vh;
+  }
+  .dashboard-option span{
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .dashboard-option span:hover{
+    color: var(--primary-color-3);
+    cursor: pointer;
+  }
+
+  
+  
+  

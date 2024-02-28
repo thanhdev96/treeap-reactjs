@@ -1,0 +1,267 @@
+.container-slide {
+    display: flex;
+    margin-top: 170px;
+}
+#carouselExampleFade {
+    margin-left: 15vh;
+    width: 857px;
+    height: 330px;
+}
+.carousel-item img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain; 
+   overflow: hidden;
+}
+
+
+.slide-context {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 282px;
+    height: 330px;
+    right: 100px;
+}
+
+.slide-context .slide-context1{
+    margin-top: 30px;
+}
+.slide-context1 p{
+    padding: 0;
+    margin: 0;
+    color: #6da53b;
+    
+}
+.slide-text1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.slide-text2 {
+  font-size: 14px;
+}
+.slide-context1-text p:hover{
+    color: #eb471a;
+    cursor: pointer;
+    
+}
+
+
+.slide-context1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .slide-context1-img img {
+    max-width: 35px; 
+    height: 35px;
+  }
+  
+
+  .slide-context1 {
+    display: flex; 
+    
+  }
+  
+  .slide-context1-img {
+    width: 55px; 
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #6da53b;
+  }
+  
+  .slide-context1-img img {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .slide-context1-text {
+    margin-left: 10px; 
+    text-align: left; 
+  }
+  
+
+
+  @media (min-width: 769px) and (max-width: 1050px) {
+    
+    .container-slide {
+      display: flex;
+      margin-top: 170px;
+  }
+  #carouselExampleFade {
+      margin-left: 2vh;
+      width: 730px;
+      height: 330px;
+  }
+  .carousel-item img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover; 
+     overflow: hidden;
+  }
+  
+  
+  .slide-context {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      width: 282px;
+      height: 330px;
+      right: 0px;
+  }
+  
+  .slide-context .slide-context1{
+      margin-top: 30px;
+  }
+  .slide-context1 p{
+      padding: 0;
+      margin: 0;
+      color: #6da53b;
+      
+  }
+  .slide-text1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .slide-text2 {
+    font-size: 14px;
+  }
+  .slide-context1-text p:hover{
+      color: #eb471a;
+      cursor: pointer;
+      
+  }
+  
+  
+  .slide-context1 {
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    .slide-context1-img img {
+      max-width: 35px; 
+      height: 35px;
+    }
+    
+  
+    .slide-context1 {
+      display: flex; 
+      
+    }
+    
+    .slide-context1-img {
+      width: 55px; 
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: #6da53b;
+    }
+    
+    .slide-context1-img img {
+      width: 35px;
+      height: 35px;
+    }
+    
+    .slide-context1-text {
+      margin-left: 10px; 
+      text-align: left; 
+    }
+}
+  
+
+  @media (min-width: 501px) and (max-width: 768px) {
+    #carouselExampleFade {
+      margin-top: 0px;
+      margin-left: 2vh;
+      width: 510px;
+      height: 420px;
+  }
+  .slide-context {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    width: 250px;
+    height: 280px;
+    right: -10px;
+}
+.slide-context1-img {
+  width: 40px; 
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #6da53b;
+}
+
+.slide-context1-img img {
+  width: 30px;
+  height: 30px;
+}
+.slide-text1 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.slide-text2 {
+  font-size: 13px;
+}
+
+
+  }
+  @media  (max-width: 500px) {
+    #carouselExampleFade {
+      margin-top: 0px;
+      margin-left: 2vh;
+      width: 510px;
+      height: 420px;
+  }
+  .slide-context {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 250px;
+    height: 280px;
+    left: 100px;
+}
+.slide-context1-img {
+  width: 45px; 
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #6da53b;
+}
+
+.slide-context1-img img {
+  width: 20px;
+  height: 20px;
+}
+.slide-text1 {
+  font-size: 10px;
+  font-weight: 500;
+}
+.slide-text2 {
+  font-size: 10px;
+}
+  }
+
+ 
+
+
+
+
+  

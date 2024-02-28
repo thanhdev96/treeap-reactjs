@@ -1,0 +1,8 @@
+.modal {
+    opacity: 1 !important;
+    background: none !important;
+  }
+
+  .modal-dialog {
+    margin-top: 200px;
+  }

@@ -1,0 +1,10 @@
+  /* .productLisContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* 33.33% để có 3 card trong một hàng và -20px để tạo khoảng cách giữa chúng */
+    /* margin-bottom: 20px; */
+  /* } */ 

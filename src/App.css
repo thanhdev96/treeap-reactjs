@@ -1,0 +1,32 @@
+
+.app {
+  list-style-type: none;
+  font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary-color-1: #6da53b;
+  --primary-color-2: #d50e15;
+  --primary-color-3: #ffa850;
+  --background-color-1: #f6f6f6;
+}
+.App a{
+  text-decoration: none;
+}
+.App li{
+  list-style-type: none;
+}
+
+
+
